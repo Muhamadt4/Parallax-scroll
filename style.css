@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Montserrat:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  height: 100lvh;
+  width: 100lvw;
+}
+img {
+}
+.first-sec {
+  background: url("/Projects/third one/1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.first-sec h1,
+.fifth-sec h1 {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 800;
+  color: rgb(225, 218, 218);
+  border: 7px solid gray;
+  padding: 50px;
+  box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.7);
+  border-radius: 17px;
+}
+.second-sec,
+.forth-sec {
+  padding: 22px;
+  line-height: 50px;
+  background-color: #023047;
+  color: #fff;
+}
+.second-sec p,
+.forth-sec p {
+  font-size: 20px;
+}
+.third-sec {
+  background: url("/Projects/third one/4.jpg");
+  height: 50%;
+}
+.fifth-sec {
+  background: url("/Projects/third one/3.jpg");
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-sec,
+.fifth-sec,
+.third-sec {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/* Not Responsive after 400px width (wasn't requested) */
